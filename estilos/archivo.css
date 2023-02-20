@@ -1,0 +1,336 @@
+* { 
+margin:0;
+padding:0; 
+}
+
+
+/*      ESTILOS CSS      */
+
+
+ nav {
+    background-color: white;
+    width: 1512px;
+    height: 177px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+body nav img {
+    width: 60px;
+    height: 60px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+body nav ul li a {
+    font-size: 18px;
+    font-family: "Arimo"; src: url("Arimo-Regular.ttf"); 
+    color: #131313;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+li {
+    display: inline-block;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 77px;
+    margin-bottom: 77px;
+   }
+
+.fondoFacturas {
+    z-index: -1;
+}
+
+#heroSection {
+    background-image: url(imagenes/hero-image-facturas.jpg);
+    background-position: center center;
+    background-size: 1510px 625px;
+    padding-top: 150px;
+    padding-bottom: 98px;
+    display: flex;
+    flex-direction: row;
+}
+
+.celdaVacia1 {
+    width: 25%;
+}
+
+.celdaVacia2 {
+    width: 25%;
+}
+
+body header h1 {
+    font-size: 68px;
+    font-family: "Bakery"; src: url("bakery.ttf.");
+    color: #131313;
+    animation-duration: 1.5s;
+    animation-name: aparecer;
+    animation-iteration-count: initial;
+}
+
+body header #heroSection div p {
+    width: 205px;
+}
+
+
+h2 {
+    font-family: "Bakery"; src: url("bakery.ttf.");
+    font-size: 60px;
+    animation-duration: 1.5s;
+    animation-name: aparecer;
+    animation-iteration-count: initial;
+}
+
+p {
+    font-size: 14px;
+    font-family: "Arimo"; src: url("Arimo-Regular.ttf"); 
+    color: #131313;
+}
+
+.boton {
+    font-size: 18px;
+    font-family: "Arimo"; src: url("Arimo-Regular.ttf"); 
+    color: #4A4399;
+    background-color: #E6D67C;
+    width: 195px;
+    padding-top: 2px;
+    padding-right: 45px;
+    padding-bottom: 2px;
+    padding-left: 45px;
+    border-radius: 18px;
+    margin: 30px 10px 0px 10px;
+    transition: all 0.8s ease;
+}
+
+.fondoTurquesa {
+    background-color: #ABA3FF;
+    height: 629px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#h2EnBlanco {
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.croissants {
+    width: 317px;
+    height: 263px;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px 3px rgba(32,32,32,0.2);
+}
+
+h3 {
+    font-size: 21px;
+    font-family: "Arimo"; src: url("Arimo-Regular.ttf");
+    margin-top: 35px;
+}
+
+.fondoTurquesa p {
+    text-align: center;
+    margin-top: 40px;
+    width: 370px;
+}
+
+.seccionNosotros {
+    display: flex;
+    flex-direction: row;
+}
+
+.panes {
+    width: 937px;
+    height: 612px;
+}
+
+body main .seccionNosotros div {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+#contactanos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-right: 150px;
+    padding-left: 150px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-right: 45px;
+}
+
+body footer form div h2 {
+    margin-top: 60px;
+}
+
+body footer form div input {
+    display: block;
+    margin-bottom: 28px;
+    width: 395px;
+    height: 35px;
+}
+
+textarea {
+    width: 395px;
+    height: 119px;
+}
+
+.fondoAmarillo {
+    background-color: #E6D67C;
+    width: 555px;
+    height: 524px;
+}
+
+.fondoAzul {
+    background-color: #4A4399;
+    width: 100%;
+    height: 145px;
+
+}
+
+.mapa {
+    width: 675px;
+    height: 308px;
+    border: solid 21px #E6D67C;
+    margin-top: 110px;
+    margin-bottom: 110px;
+
+}
+
+body .blog img {
+    width: 320px;
+    height: 320px;
+}
+
+.blog {
+    display: grid;
+    grid-template-columns: 435px 435px 435px;
+    grid-template-rows: 520px 520px 520px;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    grid-template-areas: 
+}
+
+
+
+/*      ANIMACIONES, TRANSICIONES Y TRANSFORMACIONES      */
+
+
+
+a:hover {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ABA3FF;
+ }
+
+ @keyframes aparecer {
+    0% {
+ opacity: 0; }
+    100% {
+      opacity: 1;
+ } 
+}
+
+ @keyframes aparecer {
+    0% {
+ opacity: 0; }
+    100% {
+      opacity: 1;
+ } 
+}
+
+.boton:hover{
+    transition: all 0.8s ease;
+    transform:scale(1.1, 1.1)
+}
+
+.boton:focus {
+    background-color: #4A4399;
+    color: #E6D67C;
+ }
+
+.blog div:hover {
+    opacity: 0.6;
+}
+
+.iconosRedesSociales:hover {
+    opacity: 0.8;
+}
+
+
+
+/*      MEDIA QUERIES / DISENO RESPONSIVE      */
+
+
+
+@media screen and (max-width: 600px) {
+    nav {
+        width: 100%;
+        height: 100%;
+    }
+    body nav ul li a {
+        font-size: 14px; 
+        margin-left: 25px;
+    }
+    #heroSection {
+        background-size: 100%;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        flex-wrap: wrap;
+        align-items: center ;
+    }
+    .celdaVacia1 {
+        display: none;
+    }
+
+    .celdaVacia2 {
+        display: none;
+    }
+    .seccionNosotros {
+            flex-wrap: wrap;
+    }
+    .panes {
+        width: 100%;
+        height: 100%;
+    }
+    #contactanos {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    .mapa {
+        width: 90%;
+        height: 90%;
+    }
+    video {
+        width: 100%;
+        height: 100%;
+    }
+    .blog {
+        grid-template-columns: 55%;
+        grid-template-rows: 600px;
+        grid-row-gap: 35px;
+
+}
+
+
+

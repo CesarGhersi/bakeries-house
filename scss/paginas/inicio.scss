@@ -1,0 +1,98 @@
+#herosection {
+    background-image: url(imagenes/hero-image-facturas.jpg);
+    background-position: center center;
+    background-size: 1510px 625px;
+    padding-top: 150px;
+    padding-bottom: 98px;
+    display: flex;
+    flex-direction: row;
+        .celdaVacia1 {
+            width: 25%;
+        }
+        .celdaVacia2 {
+            width: 25%;
+        }
+        div {
+            h1 {
+                font-size: 68px;
+                font-family: $title-typography;
+                color: #131313;
+                animation-duration: 1.5s;
+                animation-name: aparecer;
+                animation-iteration-count: initial;
+            }
+        }
+}
+
+body {
+    main {
+        section {
+            .fondoTurquesa {
+                background-color: #ABA3FF;
+                height: 629px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                    #h2EnBlanco {
+                        text-align: center;
+                        color: white;
+                        margin-top: 50px;
+                        margin-bottom: 10px;
+                    }
+                    .croissants {
+                            width: 317px;
+                            height: 263px;
+                            justify-content: center;
+                            border-radius: 20px;
+                            box-shadow: 3px 3px 3px 3px rgba(32,32,32,0.2);
+                    }
+                    h3 {
+                        font-size: 21px;
+                        font-family: "Arimo"; src: url("Arimo-Regular.ttf");
+                        margin-top: 35px;
+                    }
+                    p {
+                        text-align: center;
+                        margin-top: 40px;
+                        width: 370px;
+                    }
+                
+            }
+        }
+    }
+}
+
+body {
+    main {
+        .seccionNosotros {
+                display: flex;
+                flex-direction: row;
+                .panes {
+                    width: 937px;
+                    height: 612px;
+                }
+                div {
+                    padding-top: 10%;
+                    padding-bottom: 10%;
+                    padding-right: 10%;
+                    padding-left: 10%;
+                }                
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 850px) {
+    body {
+        main {
+            .seccionNosotros {
+                flex-wrap: wrap;
+                .panes {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}

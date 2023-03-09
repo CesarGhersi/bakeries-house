@@ -1,0 +1,23 @@
+.boton {
+    font-size: 18px;
+    font-family: "Arimo"; src: url("Arimo-Regular.ttf"); 
+    color: #4A4399;
+    background-color: #E6D67C;
+    width: 195px;
+    padding-top: 2px;
+    padding-right: 45px;
+    padding-bottom: 2px;
+    padding-left: 45px;
+    border-radius: 18px;
+    margin: 30px 10px 0px 10px;
+    transition: all 0.8s ease;
+    &:hover {
+        transition: all 0.4s ease;
+        transform:scale(1.1, 1.1) 
+    }
+    &:focus {
+        background-color: #4A4399;
+        color: #E6D67C;
+    }
+
+}

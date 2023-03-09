@@ -1,0 +1,38 @@
+@import url("./tipografia/bakery.ttf");
+@import url("./tipografia/Arimo-Regular.ttf");
+
+$title-typography: 'Bakery';
+$paragraph-typography: 'Arimo';
+
+h1, h2, h3 {
+    font-family: $title-typography;
+}
+
+h2 {
+    font-size: 60px;
+    animation-duration: 1.5s;
+    animation-name: aparecer;
+    animation-iteration-count: initial;
+}
+
+@keyframes aparecer {
+    0% {
+ opacity: 0; }
+    100% {
+      opacity: 1;
+ } 
+}
+
+ @keyframes aparecer {
+    0% {
+ opacity: 0; }
+    100% {
+      opacity: 1;
+ } 
+}
+
+p {
+    font-family: $paragraph-typography;
+    font-size: 14px;
+    color: #131313;
+}

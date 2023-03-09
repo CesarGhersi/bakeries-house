@@ -1,0 +1,207 @@
+@import url("./tipografia/bakery.ttf");
+@import url("./tipografia/Arimo-Regular.ttf");
+h1, h2, h3 {
+  font-family: "Bakery"; }
+
+h2 {
+  font-size: 60px;
+  animation-duration: 1.5s;
+  animation-name: aparecer;
+  animation-iteration-count: initial; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+p {
+  font-family: "Arimo";
+  font-size: 14px;
+  color: #131313; }
+
+.boton {
+  font-size: 18px;
+  font-family: "Arimo";
+  src: url("Arimo-Regular.ttf");
+  color: #4A4399;
+  background-color: #E6D67C;
+  width: 195px;
+  padding-top: 2px;
+  padding-right: 45px;
+  padding-bottom: 2px;
+  padding-left: 45px;
+  border-radius: 18px;
+  margin: 30px 10px 0px 10px;
+  transition: all 0.8s ease; }
+  .boton:hover {
+    transition: all 0.4s ease;
+    transform: scale(1.1, 1.1); }
+  .boton:focus {
+    background-color: #4A4399;
+    color: #E6D67C; }
+
+header nav {
+  background-color: white;
+  width: 1512px;
+  height: 177px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center; }
+  header nav div img {
+    width: 60px;
+    height: 60px;
+    margin-top: 50px;
+    margin-bottom: 50px; }
+  header nav div ul {
+    list-style-type: none;
+    margin-top: 77px;
+    margin-bottom: 77px; }
+    header nav div ul li {
+      display: inline-block; }
+      header nav div ul li a {
+        font-size: 18px;
+        font-family: "Arimo";
+        color: #131313;
+        text-decoration: none;
+        margin-left: 40px; }
+        header nav div ul li a:hover {
+          font-size: 18px;
+          font-weight: bold;
+          color: #ABA3FF; }
+
+@media screen and (max-width: 850px) {
+  header nav {
+    width: 100%;
+    height: 100%; }
+  body nav ul li a {
+    font-size: 14px;
+    margin-left: 25px; } }
+
+footer {
+  width: 100%; }
+  footer #contactanos {
+    display: flex;
+    flex-wrap: center;
+    align-items: center;
+    padding-right: 150px;
+    padding-left: 150px; }
+    footer #contactanos div form {
+      display: flex;
+      flex-direction: column;
+      margin-right: 45px; }
+      footer #contactanos div form h2 {
+        margin-top: 60px; }
+      footer #contactanos div form input {
+        display: block;
+        margin-bottom: 28px;
+        width: 395px;
+        height: 35px; }
+      footer #contactanos div form textarea {
+        width: 395px;
+        height: 119px; }
+    footer #contactanos div .fondoAmarillo {
+      background-color: #E6D67C;
+      width: 555px;
+      height: 524px; }
+      footer #contactanos div .fondoAmarillo .mapa {
+        width: 675px;
+        height: 308px;
+        border: solid 21px #E6D67C;
+        margin-top: 110px;
+        margin-bottom: 110px; }
+  footer section .fondoAzul {
+    background-color: #4A4399;
+    width: 100%;
+    height: 145px; }
+
+@media screen and (max-width: 850px) {
+  body footer {
+    width: 100%; } }
+
+#herosection {
+  background-image: url(imagenes/hero-image-facturas.jpg);
+  background-position: center center;
+  background-size: 1510px 625px;
+  padding-top: 150px;
+  padding-bottom: 98px;
+  display: flex;
+  flex-direction: row; }
+  #herosection .celdaVacia1 {
+    width: 25%; }
+  #herosection .celdaVacia2 {
+    width: 25%; }
+  #herosection div h1 {
+    font-size: 68px;
+    font-family: "Bakery";
+    color: #131313;
+    animation-duration: 1.5s;
+    animation-name: aparecer;
+    animation-iteration-count: initial; }
+
+body main section .fondoTurquesa {
+  background-color: #ABA3FF;
+  height: 629px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  body main section .fondoTurquesa #h2EnBlanco {
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 10px; }
+  body main section .fondoTurquesa .croissants {
+    width: 317px;
+    height: 263px;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px 3px rgba(32, 32, 32, 0.2); }
+  body main section .fondoTurquesa h3 {
+    font-size: 21px;
+    font-family: "Arimo";
+    src: url("Arimo-Regular.ttf");
+    margin-top: 35px; }
+  body main section .fondoTurquesa p {
+    text-align: center;
+    margin-top: 40px;
+    width: 370px; }
+
+body main .seccionNosotros {
+  display: flex;
+  flex-direction: row; }
+  body main .seccionNosotros .panes {
+    width: 937px;
+    height: 612px; }
+  body main .seccionNosotros div {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-right: 10%;
+    padding-left: 10%; }
+
+@media screen and (max-width: 850px) {
+  body main .seccionNosotros {
+    flex-wrap: wrap; }
+    body main .seccionNosotros .panes {
+      width: 100%;
+      height: 100%; } }
+
+@media screen and (max-width: 850px) {
+  video {
+    width: 100%;
+    height: 100%; } }
+
+body .blog {
+  display: grid;
+  grid-template-columns: 435px 435px 435px;
+  grid-template-rows: 520px 520px 520px;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  align-content: center; }

@@ -1,62 +1,13 @@
-footer {
-    width: 100%;
-        #contactanos {
-            display: flex;
-            flex-wrap: center;
-            align-items: center;
-            padding-right: 150px;
-            padding-left: 150px;
+body {
+    footer {
+        .nuevoFooter {
             div {
-                form {
-                    display: flex;
-                    flex-direction: column;
-                    margin-right: 45px;
-                    h2 {
-                        margin-top: 60px;
-                    }
-                    input {
-                        display: block;
-                        margin-bottom: 28px;
-                        width: 395px;
-                        height: 35px;
-                    }
-                    textarea {
-                        width: 395px;
-                        height: 119px;
-                    }
+                img {
+                    width: 202px;
+                    height: 205px;
                 }
-            .fondoAmarillo {
-                    background-color: $primary-color;
-                    width: 555px;
-                    height: 524px;
-                    .mapa {
-                        width: 675px;
-                        height: 308px;
-                        border: solid 21px #E6D67C;
-                        margin-top: 110px;
-                        margin-bottom: 110px;
-                    }
-                }
-                   
             }
+
         }
-        section {
-            .fondoAzul {
-                background-color: #4A4399;
-                width: 100%;
-                height: 145px; 
-            }
-        }
-}
-
-
-
-
-
-@media screen and (max-width: 850px) {
-    body {
-        footer {
-            width: 100%;
-        } 
-    } 
+    }
 }

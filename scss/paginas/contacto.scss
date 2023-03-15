@@ -1,0 +1,71 @@
+body {
+    main {
+        .formularioYMapa {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+                form {
+                    div {
+                        width: 40%; 
+                        display: inline;
+                        float: left;   
+                        .boton {
+                            display: block;
+                        }        
+                            .amarilloAbajo {
+                                float: right;
+                                display: inline;
+                                background-color: $primary-color;
+                                height: 524px;
+                                width: 40%;
+                                    iframe {
+                                        padding: 20px;
+                                        border: solid 21px $primary-color;
+                                        overflow: hidden;
+                                    }
+                                    .copyright {
+                                        font-size: 12px;
+                                    }
+                        }
+                }
+            }
+        }
+    }
+}
+
+body {
+    footer {
+        .nuevoFooter {
+                background-color: $tertiary-color;
+                height: 317px;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                div {
+                    ul {
+                        li {
+                            text-decoration: none;
+                        }
+
+                    }
+                }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 850px) {
+
+
+}

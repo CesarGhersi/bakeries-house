@@ -122,6 +122,9 @@ footer {
     width: 100%;
     height: 145px; }
 
+.fondoAzul {
+  background-color: #4A4399; }
+
 @media screen and (max-width: 850px) {
   body footer {
     width: 100%; } }
@@ -197,11 +200,34 @@ body main .seccionNosotros {
     width: 100%;
     height: 100%; } }
 
-body .blog {
-  display: grid;
-  grid-template-columns: 435px 435px 435px;
-  grid-template-rows: 520px 520px 520px;
-  justify-items: center;
-  align-items: center;
-  justify-content: center;
-  align-content: center; }
+body main .formularioYMapa {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+  body main .formularioYMapa form div {
+    width: 40%;
+    display: inline;
+    float: left; }
+    body main .formularioYMapa form div .boton {
+      display: block; }
+    body main .formularioYMapa form div .amarilloAbajo {
+      float: right;
+      display: inline;
+      background-color: #E6D67C;
+      height: 524px;
+      width: 40%; }
+      body main .formularioYMapa form div .amarilloAbajo iframe {
+        padding: 20px;
+        border: solid 21px #E6D67C;
+        overflow: hidden; }
+      body main .formularioYMapa form div .amarilloAbajo .copyright {
+        font-size: 12px; }
+
+body footer .nuevoFooter {
+  background-color: #4A4399;
+  height: 317px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+  body footer .nuevoFooter div ul li {
+    text-decoration: none; }

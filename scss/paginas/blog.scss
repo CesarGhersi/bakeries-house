@@ -1,3 +1,32 @@
+
+
+body {
+    .blog {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+            .card {
+                width: 435px;
+                height: 520;
+                display: flex;
+                &:hover {
+                    opacity: 0.6;
+                }
+                img {
+                    width: 320px;
+                    height: 320px;
+                }
+        }
+    }
+}
+
+
+
+
+
+/**
+
 body {
     .blog {
         display: grid;
@@ -9,3 +38,5 @@ body {
         align-content: center;
     }
 }
+
+

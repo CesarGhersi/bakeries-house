@@ -1,13 +1,47 @@
 body {
     footer {
         .nuevoFooter {
+            background-color: $tertiary-color;
+            height: 317px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
             div {
-                img {
+                .logoEnFooter {
                     width: 202px;
                     height: 205px;
+                    
                 }
             }
-
-        }
+            div {
+                h2 {
+                    color: white;
+                }
+                ul {
+                list-style-type: none;
+                    li {
+                        a {
+                        text-decoration: none;
+                        font-family: $paragraph-typography;
+                        color: $fourth-color;
+                        &:hover {
+                            font-size: 18px;
+                            font-weight: bold;
+                            color: $primary-color;
+                          }
+                        }
+                    }
+                }
+            }
+            .iconosRedesSociales {
+                .icono1, .icono2, .icono3 {
+                    width: 42px;
+                    height: 42px;
+                }
+             }        
+         }
     }
 }
+
+
+

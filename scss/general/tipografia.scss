@@ -4,16 +4,28 @@
 $title-typography: 'Bakery';
 $paragraph-typography: 'Arimo';
 
-h1, h2, h3 {
+h1 {
     font-family: $title-typography;
     font-size: 68px;
 }
 
 h2 {
+    font-family: $title-typography;
     font-size: 60px;
     animation-duration: 1.5s;
     animation-name: aparecer;
     animation-iteration-count: initial;
+}
+
+h3 {
+    font-size: 21px;
+    font-family: $paragraph-typography;
+}
+
+p {
+    font-family: $paragraph-typography;
+    font-size: 14px;
+    color: #131313;
 }
 
 @keyframes aparecer {
@@ -32,8 +44,3 @@ h2 {
  } 
 }
 
-p {
-    font-family: $paragraph-typography;
-    font-size: 14px;
-    color: #131313;
-}

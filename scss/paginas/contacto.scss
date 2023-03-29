@@ -4,12 +4,14 @@ body {
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
-            width: 90%;
+            width: 100%;
+            margin-top: 0px;
             div {
                 form {
                         width: 40%; 
                         display: inline;
                         float: left; 
+                        margin-left: 195px;
                         input {
                             width: 395px;
                             height: 35px;
@@ -29,10 +31,14 @@ body {
                                 background-color: $primary-color;
                                 height: 524px;
                                 width: 40%;
+                                margin-left: 15px;
                                     iframe {
+                                        margin-top: 70px;
+                                        width: 500px;
                                         padding: 20px;
                                         border: solid 21px $primary-color;
                                         overflow: hidden;
+                                        margin-right: 195px;
                                     }
                                     .copyright {
                                         font-size: 12px;
@@ -53,9 +59,21 @@ body {
             #formularioYMapa {
                 flex-direction: column;
                 flex-wrap: wrap;
+                width: 100%;
+                div {
+                    form {
+                        margin-left: 20px;
+                    }
+                }
                 .amarilloAbajo {
                     height: 100%;
                     width: 100%;
+                    margin-left: 0px;
+                    iframe {
+                        margin-top: 20px;
+                        width: 400px;
+                        padding: 5px;
+                    }
                 }
             }
         }

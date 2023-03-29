@@ -2,18 +2,20 @@ body {
     footer {
         .nuevoFooter {
             background-color: $tertiary-color;
-            height: 317px;
+            height: 310px;
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
+            padding-top: 80px;
             div {
                 .logoEnFooter {
                     width: 202px;
-                    height: 205px;
-                    
+                    height: 205px;  
+                    margin-left: 110px;                 
                 }
             }
             div {
+                margin-left: 35px;
                 h2 {
                     color: white;
                 }
@@ -34,12 +36,37 @@ body {
                 }
             }
             .iconosRedesSociales {
-                .icono1, .icono2, .icono3 {
-                    width: 42px;
-                    height: 42px;
-                }
+                margin-left: 500px;
+                    .icono1, .icono2, .icono3 {
+                        width: 42px;
+                        height: 42px;
+
+                    }
              }        
          }
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width: 850px) {
+    body {
+        footer {
+            .nuevoFooter {
+                padding-top: 30px;
+                    div {
+                        .logoEnFooter {
+                            margin-left: -30px;
+                        }
+                    }
+                        .iconosRedesSociales {
+                            margin-left: 40px;
+                        }
+            }
+        }
     }
 }
 

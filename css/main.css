@@ -90,32 +90,48 @@ header nav {
     height: 100%; }
   body nav ul li a {
     font-size: 14px;
-    margin-left: 25px; } }
+    margin-left: 15px; }
+    body nav ul li a:hover {
+      font-size: 16px; } }
 
 body footer .nuevoFooter {
   background-color: #4A4399;
-  height: 317px;
+  height: 310px;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  padding-top: 80px; }
   body footer .nuevoFooter div .logoEnFooter {
     width: 202px;
-    height: 205px; }
-  body footer .nuevoFooter div h2 {
-    color: white; }
-  body footer .nuevoFooter div ul {
-    list-style-type: none; }
-    body footer .nuevoFooter div ul li a {
-      text-decoration: none;
-      font-family: "Arimo";
+    height: 205px;
+    margin-left: 110px; }
+  body footer .nuevoFooter div {
+    margin-left: 35px; }
+    body footer .nuevoFooter div h2 {
       color: white; }
-      body footer .nuevoFooter div ul li a:hover {
-        font-size: 18px;
-        font-weight: bold;
-        color: #E6D67C; }
-  body footer .nuevoFooter .iconosRedesSociales .icono1, body footer .nuevoFooter .iconosRedesSociales .icono2, body footer .nuevoFooter .iconosRedesSociales .icono3 {
-    width: 42px;
-    height: 42px; }
+    body footer .nuevoFooter div ul {
+      list-style-type: none; }
+      body footer .nuevoFooter div ul li a {
+        text-decoration: none;
+        font-family: "Arimo";
+        color: white; }
+        body footer .nuevoFooter div ul li a:hover {
+          font-size: 18px;
+          font-weight: bold;
+          color: #E6D67C; }
+  body footer .nuevoFooter .iconosRedesSociales {
+    margin-left: 500px; }
+    body footer .nuevoFooter .iconosRedesSociales .icono1, body footer .nuevoFooter .iconosRedesSociales .icono2, body footer .nuevoFooter .iconosRedesSociales .icono3 {
+      width: 42px;
+      height: 42px; }
+
+@media screen and (max-width: 850px) {
+  body footer .nuevoFooter {
+    padding-top: 30px; }
+    body footer .nuevoFooter div .logoEnFooter {
+      margin-left: -30px; }
+    body footer .nuevoFooter .iconosRedesSociales {
+      margin-left: 40px; } }
 
 #herosection {
   background-size: 1510px 625px;
@@ -179,27 +195,34 @@ body main .seccionNosotros {
     padding-left: 10%; }
 
 @media screen and (max-width: 850px) {
+  body header #herosection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -650px; }
+    body header #herosection .celdaVacia1 {
+      display: none; }
+    body header #herosection .imagenPanadera {
+      width: 80%; }
+    body header #herosection .infoTextual {
+      width: 80%; }
+    body header #herosection .celdaVacia2 {
+      display: none; } }
+
+@media screen and (max-width: 850px) {
   body main .seccionNosotros {
     flex-wrap: wrap; }
     body main .seccionNosotros .panes {
       width: 100%;
       height: 100%; } }
 
-@media screen and (max-width: 850px) {
-  #herosection {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: -800px; }
-    #herosection .celdaVacia1 {
-      display: none; }
-    #herosection .imagenPanadera {
-      width: 80%; }
-    #herosection .infoTextual {
-      width: 80%; }
-    #herosection .celdaVacia2 {
-      display: none; } }
+body main .bootstrap {
+  align-items: center;
+  justify-content: center; }
+
+body header video {
+  width: 100%; }
 
 @media screen and (max-width: 850px) {
   video {
@@ -240,11 +263,13 @@ body main #formularioYMapa {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 90%; }
+  width: 100%;
+  margin-top: 0px; }
   body main #formularioYMapa div form {
     width: 40%;
     display: inline;
-    float: left; }
+    float: left;
+    margin-left: 195px; }
     body main #formularioYMapa div form input {
       width: 395px;
       height: 35px; }
@@ -258,21 +283,33 @@ body main #formularioYMapa {
     display: inline;
     background-color: #E6D67C;
     height: 524px;
-    width: 40%; }
+    width: 40%;
+    margin-left: 15px; }
     body main #formularioYMapa .amarilloAbajo iframe {
+      margin-top: 70px;
+      width: 500px;
       padding: 20px;
       border: solid 21px #E6D67C;
-      overflow: hidden; }
+      overflow: hidden;
+      margin-right: 195px; }
     body main #formularioYMapa .amarilloAbajo .copyright {
       font-size: 12px; }
 
 @media screen and (max-width: 850px) {
   body main #formularioYMapa {
     flex-direction: column;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    width: 100%; }
+    body main #formularioYMapa div form {
+      margin-left: 20px; }
     body main #formularioYMapa .amarilloAbajo {
       height: 100%;
-      width: 100%; } }
+      width: 100%;
+      margin-left: 0px; }
+      body main #formularioYMapa .amarilloAbajo iframe {
+        margin-top: 20px;
+        width: 400px;
+        padding: 5px; } }
 
 * {
   margin: 0;

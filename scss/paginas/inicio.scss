@@ -84,6 +84,32 @@ body {
 }
 
 
+@media screen and (max-width: 850px) {
+ body {
+    header {
+            #herosection {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin-top: -650px;
+                .celdaVacia1 {
+                    display: none;
+                }
+                .imagenPanadera {
+                    width: 80%;
+                }
+                .infoTextual {
+                    width: 80%;
+                }
+                .celdaVacia2 {
+                    display: none;
+                }
+            }
+        }
+    }    
+} 
+
 
 @media screen and (max-width: 850px) {
     body {
@@ -99,24 +125,4 @@ body {
     }
 }
 
-@media screen and (max-width: 850px) {
-    #herosection {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-top: -800px;
-        .celdaVacia1 {
-            display: none;
-        }
-        .imagenPanadera {
-            width: 80%;
-        }
-        .infoTextual {
-            width: 80%;
-        }
-        .celdaVacia2 {
-            display: none;
-        }
-    }
-}
+
